@@ -50,9 +50,6 @@ public class ApplePie
 	
 	public static CreativeTabs applepieTab = new CreativeTabApplePie();
 	public static ItemArmor.ArmorMaterial MATERIAL_APPLE = EnumHelper.addArmorMaterial("APPLE", 20, new int[]{2, 6, 5, 2}, 9);
-	public static int potRenderID;
-	public static int matingGUIID;
-	public static int armorRender = 0;
 
 	@SidedProxy(clientSide = "com.noto0648.applepie.client.ClientProxy", serverSide = "com.noto0648.applepie.CommonProxy")
 	public static CommonProxy proxy;
